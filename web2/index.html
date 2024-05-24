@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Página de Aterrizaje con Bulma</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.9.3/css/bulma.min.css">
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <style>
+        .navbar {
+            position: fixed;
+            width: 100%;
+            top: 0;
+            z-index: 1000;
+        }
+
+        /* Animación al pasar el mouse*/
+        .card:hover {
+            transform: scale(1.05);
+            transition: transform 0.3s ease;
+        }
+    </style>
+</head>
+<body>
+    <!-- Navegación -->
+    <nav class="navbar is-black" role="navigation" aria-label="main navigation">
+        <div class="navbar-brand">
+            <a class="navbar-item" href="#inicio">MysteryDrop</a>
+            <a class="navbar-item" href="#sobre-nosotros">Sobre Nosotros</a>
+            <a class="navbar-item" href="#servicios">Servicios</a>
+            <a class="navbar-item" href="#contacto">Contacto</a>
+            <span class="navbar-burger burger" data-target="navbarMenu">
+                <span></span>
+                <span></span>
+                <span></span>
+            </span>
+        </div>
+        <div id="navbarMenu" class="navbar-menu">
+            <div class="navbar-end">
+   
+            </div>
+        </div>
+    </nav>
+
+    <!-- Inicio -->
+    <section id="inicio" class="section has-background-black has-text-white has-text-centered">
+        <div class="container">
+            <h1 class="title has-text-white">MysteryDrop</h1>
+            <p class="subtitle has-text-white" ><img src="./logomystery.jpeg" alt="" width="30%" height="30%" ></p>
+        </div>
+    </section>
+
+    <!-- Sobre Nosotros --> 
+    <section id="sobre-nosotros" class="section has-background-black has-text-white has-text-centered">
+        <div class="container">
+            <h2 class="title has-text-white">¡Bienvenido a MysteryDrop: donde la emoción y el misterio se unen para crear una experiencia inolvidable!</h2>
+            <p>En nuestra plataforma, te sumergirás en un emocionante universo donde cada caja es una oportunidad para descubrir objetos fascinantes y útiles que podrían sorprenderte gratamente.</p>
+            <p class="margenes"> </p>
+            <p>¿Listo para desbloquear un mundo de sorpresas emocionantes? En MysteryDrop, te invitamos a sumergirte en una experiencia única donde cada clic puede llevar a un descubrimiento emocionante.</p>
+            <p class="margenes"> </p>
+            <p>magina la emoción de abrir una caja y descubrir un tesoro que ni siquiera sabías que estabas buscando. Desde moda hasta artículos cotidianos, nuestra colección está repleta de sorpresas que seguramente te encantarán.</p>
+        </div>
+    </section>
+
+    <!-- Servicios -->
+    <section id="servicios" class="section has-background-black has-text-white has-text-centered">
+        <div class="container">
+            <h2 class="title has-text-white">Gambling</h2>
+            <div class="columns is-multiline">
+                <div class="column is-half-tablet is-one-third-desktop">
+                    <div class="card">
+                        <div class="card-image">
+                            <figure class="image is-4by3">
+                                <img src="./boxes.PNG" alt="Imagen 1">
+                            </figure>
+                        </div>
+                        <div class="card-content has-background-grey-darker has-text-white">
+                            <p class="title"></p>
+                            <p class="subtitle">Apertura de cajas.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="column is-half-tablet is-one-third-desktop">
+                    <div class="card">
+                        <div class="card-image">
+                            <figure class="image is-4by3">
+                                <img src="upgrade.PNG" alt="Imagen 2">
+                            </figure>
+                        </div>
+                        <div class="card-content has-background-grey-darker has-text-white">
+                            <p class="title"></p>
+                            <p class="subtitle">Mejora tus objetos.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="column is-half-tablet is-one-third-desktop">
+                    <div class="card">
+                        <div class="card-image">
+                            <figure class="image is-4by3">
+                                <img src="./changer.PNG" alt="Imagen 3">
+                            </figure>
+                        </div>
+                        <div class="card-content has-background-grey-darker has-text-white">
+                            <p class="title"></p>
+                            <p class="subtitle">Intercambio de objetos.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="cosas">
+            <h3 class="title has-text-white" id="cajas">Apertura de cajas</h3>
+            <p>¿Te encanta la emoción de abrir regalos? En MysteryDrop, llevamos esa emoción a un nivel completamente nuevo con nuestra emocionante experiencia de apertura de cajas. ¿Qué hay dentro? ¡Es un misterio! Pero aquí está la mejor parte: ¡todo lo que encontrarás es algo que amarás! </p>
+            <p class="margenes"> </p>
+            <p>Desde moda hasta artículos cotidianos, nuestras cajas contienen una sorpresa cuidadosamente seleccionada de objetos emocionantes que podrían enriquecer tu vida diaria. Imagina abrir una caja y encontrar la pieza perfecta para completar tu atuendo o ese accesorio que hace que tu espacio vital sea aún más acogedor.</p>
+            <p class="margenes"> </p>
+            <h4 class="title has-text-white">Mejora tus objetos</h4>
+                <p>¡Lleva tu experiencia en MysteryDrop al siguiente nivel con nuestra emocionante función de "upgrade"!  </p>
+                <p class="margenes">  </p>
+                <p>¿Listo para dar un giro a tus objetos y multiplicar su valor potencial? Con nuestro sistema de upgrade, puedes apostar uno de tus objetos por la oportunidad de ganar otro objeto aún más emocionante. ¿Cómo funciona? Es simple: selecciona el objeto que deseas mejorar, elige el objeto al que quieres apostar y ¡prepárate para la emoción!</p>
+                <p class="margenes">  </p>
+                <p>En MysteryDrop, ofrecemos dos emocionantes opciones de upgrade: ¡la oportunidad de ganar el objeto que deseas o la emoción de un intercambio sorpresa! ¿Arriesgarás para ganar o te atreverás a dejar que el destino decida? La elección es tuya, ¡y la emoción está garantizada!</p>
+                <p class="margenes"> </p>
+                <h5 class="title has-text-white" id="cajas">Intercambio de objetos.</h5>
+                    <p>¡Haz que cada objeto cuente con nuestro emocionante sistema de intercambio en MysteryDrop! </p>
+                    <p class="margenes"> </p>
+                    <p>¿Tienes un objeto que ya no necesitas o simplemente quieres cambiar por algo nuevo? ¡Nuestro sistema de intercambio es la solución perfecta! Sin riesgos, sin preocupaciones, simplemente pura conveniencia y flexibilidad.</p>
+                    <p class="margenes"> Con nuestro sistema de intercambio, puedes cambiar tu objeto por otro del mismo valor o incluso varios objetos que sumen el valor del objeto marcado. Es simple, rápido y sin complicaciones. ¿Qué estás esperando? ¡Es hora de darle una nueva vida a tus tesoros!</p>
+                    <p></p>
+
+        </div>
+    </section>
+
+<!-- Contacto -->
+<section id="contacto" class="section has-background-black has-text-white has-text-centered">
+    <div class="container">
+        <h2 class="title has-text-white">Contacto</h2>
+        <form id="formulario-contacto">
+            <div class="field">
+                <label class="label has-text-white">Nombre</label>
+                <div class="control">
+                    <input class="input has-background-grey-darker has-text-white" type="text" id="nombre" placeholder="Tu nombre">
+                </div>
+                <p class="help is-danger" id="error-nombre"></p>
+            </div>
+            <div class="field">
+                <label class="label has-text-white">Correo Electrónico</label>
+                <div class="control">
+                    <input class="input has-background-grey-darker has-text-white" type="email" id="correo-electronico" placeholder="Tu correo electrónico">
+                </div>
+                <p class="help is-danger" id="error-correo"></p>
+            </div>
+            <div class="field">
+                <label class="label has-text-white">Mensaje</label>
+                <div class="control">
+                    <textarea class="textarea has-background-grey-darker has-text-white" id="mensaje" placeholder="Tu mensaje"></textarea>
+                </div>
+                <p class="help is-danger" id="error-mensaje"></p>
+            </div>
+            <div class="control">
+                <button class="button is-primary" type="submit">Enviar</button>
+            </div>
+        </form>
+        <p class="help is-success" id="mensaje-confirmacion" style="display:none;">¡Tu mensaje ha sido enviado con éxito!</p>
+    </div>
+</section>
+
+<script src="script.js"></script>
+
+</body>
+</html>

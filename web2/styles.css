@@ -1,0 +1,79 @@
+/* styles.css */
+html {
+    scroll-behavior: smooth;
+    font-family: 'Roboto', sans-serif;
+}
+
+body {
+    background-color: #000;
+    color: #fff;
+}
+
+.navbar-item {
+    cursor: pointer;
+    color: #fff;
+}
+
+.section {
+    padding: 5rem 1.5rem;
+}
+
+.field .label {
+    color: #fff;
+}
+
+.input, .textarea {
+    color: #fff;
+    background-color: #2a2a2a;
+    border: none;
+}
+
+.card-content {
+    background-color: #333;
+}
+
+.button.is-primary {
+    background-color: #ff3860;
+    border-color: #ff3860;
+}
+
+.button.is-primary:hover {
+    background-color: #ff1e50;
+    border-color: #ff1e50;
+}
+
+@media screen and (max-width: 768px) {
+    .navbar {
+        flex-direction: column;
+    }
+    .navbar-item {
+        margin-bottom: 10px;
+    }
+    .navbar-menu {
+        background-color: #000;
+    }
+    .navbar-item {
+        color: #fff !important;
+    }
+    .section {
+        padding-top: 3rem;
+        padding-bottom: 3rem;
+    }
+}
+
+@media screen and (max-width: 1024px) {
+    .column.is-one-quarter-desktop {
+        width: 50% !important;
+    }
+}
+
+.subtitle{
+    color: white;
+}
+
+.cosas{
+    margin-top: 5%;
+}
+.margenes{
+    margin-top: 2%;
+}
